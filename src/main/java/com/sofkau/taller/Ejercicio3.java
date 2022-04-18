@@ -16,6 +16,8 @@ public class Ejercicio3 {
         area = areaCiruclo(radio);
 
         System.out.println("El area del circulo es: " + area);
+
+        scanner.close();
     }
 
     public static Double areaCiruclo(double radio) {

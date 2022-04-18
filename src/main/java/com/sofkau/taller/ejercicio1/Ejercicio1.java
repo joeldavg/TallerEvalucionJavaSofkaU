@@ -1,4 +1,4 @@
-package com.sofkau.taller;
+package com.sofkau.taller.ejercicio1;
 
 public class Ejercicio1 {
 

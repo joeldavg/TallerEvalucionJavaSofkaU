@@ -1,4 +1,4 @@
-package com.sofkau.taller;
+package com.sofkau.taller.ejercicio4;
 
 import java.util.Scanner;
 

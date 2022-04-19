@@ -1,6 +1,7 @@
 package com.sofkau.taller.ejercicio11;
 
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -13,7 +14,7 @@ public class Ejercicio11 {
         String textoUsuario = leerTexto();
 
         int textoLength = textoUsuario.length();
-        Map<Character, Integer> vocales = contarVocales(textoUsuario);
+        Map<Character, Integer> vocales = contarVocales(textoUsuario.toLowerCase());
 
         System.out.println("La longitud de la frase es: " + textoLength);
         System.out.println("La frase contiene la siguiente cantidad de vocales: " + vocales);

@@ -32,7 +32,7 @@ public class Persona {
     }
 
     public Integer calcularIMC() {
-        double IMC = this.peso/Math.pow(this.altura, 2);
+        double IMC = this.peso / Math.pow(this.altura, 2);
         Integer valor = 1;
         if (IMC < 20) {
             valor = -1;

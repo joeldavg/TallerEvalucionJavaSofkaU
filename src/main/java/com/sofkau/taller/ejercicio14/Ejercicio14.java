@@ -25,7 +25,7 @@ public class Ejercicio14 {
     private static void imprimirSaltos2(int numero) {
         do {
             System.out.println(numero);
-            numero+=2;
+            numero += 2;
         } while (numero <= 1000);
     }
 

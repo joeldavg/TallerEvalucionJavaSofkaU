@@ -76,7 +76,7 @@ public class Electrodomestico {
         } else {
             incremento = 100D;
         }
-        return  incremento;
+        return incremento;
     }
 
 }

@@ -23,7 +23,7 @@ public class Ejercicio4 {
     public static double precioConIva(double precio) {
         //IVA = 21% , -> 0.21
         final double IVA = 0.21d;
-        double precioFinal = precio*(1 + IVA);
+        double precioFinal = precio * (1 + IVA);
         return precioFinal;
     }
 
